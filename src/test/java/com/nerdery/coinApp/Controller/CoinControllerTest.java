@@ -35,9 +35,6 @@ public class CoinControllerTest {
                 .andExpect(status().isOk())
 
                 .andDo(print());
-//        this.mvc.perform(get("/api/?dollarValues=-1.29"))
-//                .andExpect(content().json("{\"Quarter\":0,\"dime\":0,\"Penny\":0,\"Half Dollar\":0,\"Nickel\":0,\"Silver Dollar\":0}"))
-//                .andDo(print());
     }
 
 }
